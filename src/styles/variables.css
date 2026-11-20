@@ -1,0 +1,28 @@
+:root {
+  --orange: #F39200;
+  --bg: #FFFFFF;
+  --text: #000000;
+  --muted: #777777;
+  --card: #F5F5F5;
+  --alt: #F5F5F5;
+  --border: #E5E5E5;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --nav-bg: rgba(255, 255, 255, 0.88);
+  --radius: 18px;
+  --font-title: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+}
+[data-theme="dark"] {
+  --bg: #0d0d0d;
+  --text: #FFFFFF;
+  --muted: #a3a3a3;
+  --card: #171717;
+  --alt: #131313;
+  --border: #2a2a2a;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+  --nav-bg: rgba(13, 13, 13, 0.88);
+}
+/* Sections toujours sombres (alternance clair/sombre) */
+.section--dark { --bg: #171717; --text: #fff; --muted: #a3a3a3; --card: #222; --border: #333; --shadow: 0 10px 30px rgba(0,0,0,.5); }
+.section--black { --bg: #000; --text: #fff; --muted: #a3a3a3; --card: #171717; --border: #2c2c2c; --shadow: 0 10px 30px rgba(0,0,0,.6); }
+.section--alt { --bg: var(--alt); }
